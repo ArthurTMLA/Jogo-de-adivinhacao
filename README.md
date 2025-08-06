@@ -1,57 +1,54 @@
-# Jogo de Adivinhação 🎲
+🕹️ Como jogar
 
-Um jogo simples de adivinhação desenvolvido em **Python**, onde o computador escolhe um número aleatório entre **0 e 5**, e o jogador deve tentar adivinhar.
+    O programa vai informar que escolheu um número de 0 a 10.
 
-O programa informa se você **acertou** ou **errou** e mostra qual número foi escolhido pelo computador.  
-Ele também usa um **pequeno atraso (`sleep`)** para dar uma sensação de processamento antes do resultado.
+    Digite seu palpite.
 
----
+    O jogo vai informar:
 
-## 🖥️ Como executar
+        Verde (✅ Acertou!) → Você encontrou o número.
 
-1. Certifique-se de ter o **Python 3** instalado na sua máquina.
-2. Baixe o arquivo `jogo_adivinhacao.py`.
-3. Abra o terminal ou prompt de comando na pasta onde o arquivo foi salvo.
-4. Execute o comando:
+        Amarelo (⚠️ Dica) → O número pensado é maior ou menor.
 
-```bash
-python jogo_adivinhacao.py
+        Vermelho (❌ Erro) → Você digitou algo inválido ou errou.
+
+    Você terá 10 tentativas para acertar.
 
 📌 Exemplo de execução
 
-Entrada do jogador:
+🎲 Bem-vindo ao Jogo de Adivinhação!
+Eu escolhi um número entre 0 e 10.
+Você tem 10 tentativas para acertar. Boa sorte!
 
-Vamos jogar um jogo? Eu escolhi um numero de 0 a 5, tente adivinhar qual é! 3
-Processando...
+Tentativa 1: 5
+Errou! Dica: O número que eu pensei é menor que esse.
 
-Possíveis saídas:
+Tentativa 2: 3
+Errou! Dica: O número que eu pensei é maior que esse.
 
-Acertou! Pensei exatamente em 3!
+Tentativa 3: 4
+🎉 Você acertou em 3 tentativa(s)! Eu pensei em 4!
 
-ou
-
-Errou! Eu pensei em 1!
-
-📚 Aprendizados
-
-Com este projeto, pratiquei:
+🧠 Aprendizados com este projeto
 
     Uso do módulo random para gerar números aleatórios
 
-    Entrada de dados com input()
+    Entrada e validação de dados com input() e try/except
 
-    Estrutura condicional (if/else)
+    Estruturas de repetição (while) e condicionais (if/elif/else)
 
-    Uso de time.sleep() para criar um efeito de processamento
+    Uso da biblioteca colorama para adicionar cores ao terminal
 
-🚀 Possíveis Melhorias
+    Criação de projetos simples e funcionais para GitHub
 
-    Contar quantas tentativas o jogador precisou para acertar
+🚀 Possíveis melhorias
 
-    Aumentar a faixa de números (ex: 0 a 10)
+    Permitir que o jogador escolha o intervalo de números
 
-    Mostrar dicas como "O número é maior" ou "O número é menor"
+    Adicionar pontuação baseada na quantidade de tentativas
 
-    Adicionar cores no terminal usando a biblioteca colorama
+    Criar níveis de dificuldade (fácil, médio, difícil)
 
-Feito por [Seu Nome] 👩‍💻
+    Implementar modo multiplayer ou reinício automático
+
+Feito com 💻 e ☕ por Arthur Santos
